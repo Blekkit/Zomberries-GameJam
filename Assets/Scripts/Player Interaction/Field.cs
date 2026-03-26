@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Field : ClickableBase
+public class Field : MonoBehaviour
 {
     public EFieldState FieldState = EFieldState.Empty;
 
@@ -9,7 +9,7 @@ public class Field : ClickableBase
 
     private bool _isInteractionsOpen = false;
 
-    public override void OnClick()
+    public void OnClick()
     {
         if (_isInteractionsOpen)
             CloseInteractions();

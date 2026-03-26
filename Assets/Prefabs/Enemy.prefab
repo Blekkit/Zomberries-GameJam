@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2004506975549826727}
   - component: {fileID: 706990222629223106}
   - component: {fileID: 522350402036566322}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,14 +49,14 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 5, z: 1}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &2004506975549826727
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -122,6 +122,10 @@ PrefabInstance:
     - target: {fileID: 6099695771181266082, guid: aa04359231ad4294ca18db16dc00d382, type: 3}
       propertyPath: m_Name
       value: Zberry_dude
+      objectReference: {fileID: 0}
+    - target: {fileID: 6099695771181266082, guid: aa04359231ad4294ca18db16dc00d382, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6912366068485221912, guid: aa04359231ad4294ca18db16dc00d382, type: 3}
       propertyPath: m_LocalScale.x

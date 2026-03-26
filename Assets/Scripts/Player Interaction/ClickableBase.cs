@@ -1,9 +1,9 @@
-using UnityEngine;
-using UnityEngine.UI;
+//using UnityEngine;
+//using UnityEngine.UI;
 
-[RequireComponent(typeof(Button))]
-[RequireComponent(typeof(Image))]
-public abstract class ClickableBase : MonoBehaviour
-{
-    public abstract void OnClick();
-}
+//[RequireComponent(typeof(Button))]
+//[RequireComponent(typeof(Image))]
+//public abstract class ClickableBase : MonoBehaviour
+//{
+//    public abstract void OnClick();
+//}
