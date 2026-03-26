@@ -5,22 +5,27 @@ public class Field : ClickableBase
     public EFieldState FieldState = EFieldState.Empty;
 
     [SerializeField] private Canvas _interactionCanvas;
-    [SerializeField] private PlayerInventory _playerInventory;
+    //[SerializeField] private PlayerInventory _playerInventory;
+
+    private bool _isInteractionsOpen = false;
 
     public override void OnClick()
     {
-        if (FieldState != EFieldState.BigPlant)
-            FieldState++;
+        if (_isInteractionsOpen)
+            CloseInteractions();
+        else
+            OpenInteractions();
     }
 
     private void OpenInteractions()
     {
         _interactionCanvas.gameObject.SetActive(true);
+        _isInteractionsOpen = true;
     }
 
-    private void PlantSeed()
+    private void CloseInteractions()
     {
-        FieldState = EFieldState.Seeds;
-        _playerInventory.SeedAmount--;
-    }
+        _interactionCanvas.gameObject.SetActive(false);
+        _isInteractionsOpen = false;
+    }    
 }
