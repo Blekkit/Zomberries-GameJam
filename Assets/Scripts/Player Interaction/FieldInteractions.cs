@@ -12,7 +12,6 @@ public class FieldInteractions : MonoBehaviour
     [SerializeField] private Button _harvestButton;
     [SerializeField] private Field _field;
     [SerializeField] private BulletShooter _bulletShooter;
-    [SerializeField] private PlayerInventory _playerInventory;
     [SerializeField] private string _plantAlreadyThereText = "There is a plant already.";
     [SerializeField] private string _plantAtMaxGrowthText = "Plant already at max growth.";
     [SerializeField] private string _noPlantToHarvestText = "No grown plant to harvest.";
@@ -21,7 +20,7 @@ public class FieldInteractions : MonoBehaviour
     public void PlantSeed()
     {
         _field.FieldState = EFieldState.Seeds;
-        _playerInventory.SeedAmount--;
+        PlayerInventory.Instance.SeedAmount--;
 
         ChangeButtonEnabled(_plantSeedsButton, false, _plantAlreadyThereText);
         ChangeButtonEnabled(_wateringButton, true, WATER_BUTTON_TEXT);
@@ -45,7 +44,7 @@ public class FieldInteractions : MonoBehaviour
 
     public void HarvestSeeds()
     {
-        _playerInventory.SeedAmount += (int)_field.FieldState;
+        PlayerInventory.Instance.SeedAmount += (int)_field.FieldState;
         _field.FieldState = EFieldState.Empty;
 
         ChangeButtonEnabled(_harvestButton, false, _noPlantToHarvestText);
