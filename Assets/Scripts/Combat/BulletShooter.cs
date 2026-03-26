@@ -22,6 +22,8 @@ public class BulletShooter : MonoBehaviour
     {
         if (_canFire)
             _isFiring = true;
+
+        StartCoroutine(Shoot());
     }
 
     public void StopFiring()
