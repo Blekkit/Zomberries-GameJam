@@ -9,6 +9,8 @@ public class BulletObjectPool : MonoBehaviour
 
     private Queue<GameObject> _bulletQueue;
 
+    public static BulletObjectPool Instance;
+
     public void SpawnBullet(Vector3 position, Quaternion rotation, Vector3 velocity, int damage)
     {
         GameObject bulletObject;
@@ -32,7 +34,12 @@ public class BulletObjectPool : MonoBehaviour
 
     private void Awake()
     {
-        _bulletQueue = new Queue<GameObject>();
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(this);
+
+            _bulletQueue = new Queue<GameObject>();
 
         for (int i = 0; i <= _minSize; i++)
         {
