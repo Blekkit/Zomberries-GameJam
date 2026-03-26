@@ -11,6 +11,7 @@ public class FieldInteractions : MonoBehaviour
     [SerializeField] private Button _wateringButton;
     [SerializeField] private Button _harvestButton;
     [SerializeField] private Field _field;
+    [SerializeField] private BulletShooter _bulletShooter;
     [SerializeField] private PlayerInventory _playerInventory;
     [SerializeField] private string _plantAlreadyThereText = "There is a plant already.";
     [SerializeField] private string _plantAtMaxGrowthText = "Plant already at max growth.";
@@ -25,8 +26,7 @@ public class FieldInteractions : MonoBehaviour
         ChangeButtonEnabled(_plantSeedsButton, false, _plantAlreadyThereText);
         ChangeButtonEnabled(_wateringButton, true, WATER_BUTTON_TEXT);
 
-        //_plantSeedsButton.enabled = false;
-        //_wateringButton.enabled = true;
+        _bulletShooter.SetCanFire(false);
     }
 
     public void WaterPlant()
@@ -34,11 +34,13 @@ public class FieldInteractions : MonoBehaviour
         _field.FieldState++;
         if (_field.FieldState == EFieldState.BigPlant)
             ChangeButtonEnabled(_wateringButton, false, _plantAtMaxGrowthText);
-            //_wateringButton.enabled = false;
 
         if (_field.FieldState > EFieldState.Seeds)
+        {
             ChangeButtonEnabled(_harvestButton, true, HARVEST_BUTTON_TEXT);
-            //_harvestButton.enabled = true;
+
+            _bulletShooter.SetCanFire(true);
+        }
     }
 
     public void HarvestSeeds()
@@ -49,9 +51,8 @@ public class FieldInteractions : MonoBehaviour
         ChangeButtonEnabled(_harvestButton, false, _noPlantToHarvestText);
         ChangeButtonEnabled(_wateringButton, false, _noPlantToWaterText);
         ChangeButtonEnabled(_plantSeedsButton, true, PLANT_BUTTON_TEXT);
-        //_plantSeedsButton.enabled = true;
-        //_wateringButton.enabled = false;
-        //_harvestButton.enabled = false;
+
+        _bulletShooter.SetCanFire(false);
     }
 
     private void ChangeButtonEnabled(Button button, bool enabledValue, string newButtonText)
