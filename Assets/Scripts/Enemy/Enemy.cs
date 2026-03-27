@@ -33,6 +33,7 @@ public class Enemy : MonoBehaviour
     private void Update()
     {
         MoveToTarget();
+        
     }
 
     private void OnCollisionEnter(Collision collision)
