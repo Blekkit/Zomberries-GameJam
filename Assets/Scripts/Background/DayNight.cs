@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,21 +12,10 @@ public class DayNight : MonoBehaviour
 
     [SerializeField] private float nightDuration;
 
-    private float timer = 0;
-    private void Update()
-    {
-        if (isNight)
-            timer += Time.deltaTime;
+    [SerializeField] private TMP_Text _interactionsText;
+    [SerializeField] private TMP_Text _nightTimerText;
 
-        if (timer > nightDuration)
-        {
-            SetDay();
-            timer = 0;
-        }
-
-
-
-    }
+    private float timer = 0;    
 
     [SerializeField] private int interactionsToNight = 5;
     private int currentInteractions = 0;
@@ -46,13 +36,30 @@ public class DayNight : MonoBehaviour
         DayCount = 1;
     }
 
+    private void Update()
+    {
+        if (isNight)
+        {
+            timer += Time.deltaTime;
+            _nightTimerText.text = $"Night time: {timer}";
+        }
+
+        if (timer > nightDuration)
+        {
+            SetDay();
+            timer = 0;
+        }
+    }
+
     public void AddInteraction()
     {
         currentInteractions++;
+        _interactionsText.text = $"Interactions used: {currentInteractions} out of {interactionsToNight}";
 
         if (currentInteractions >= interactionsToNight && !isNight)
         {
             SetNight();
+            currentInteractions = 0;
         }
     }
 
@@ -70,8 +77,5 @@ public class DayNight : MonoBehaviour
         isNight = true;
         turnNight?.Invoke();
         RenderSettings.ambientLight = Color.blue;
-
-
     }
-
 }

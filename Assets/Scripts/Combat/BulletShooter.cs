@@ -21,6 +21,9 @@ public class BulletShooter : MonoBehaviour
 
     public void StartFiring()
     {
+        //Debug.Log("start firing called");
+        _field.OnStartNight();
+
         if (_canFire)
             _isFiring = true;
 
@@ -29,6 +32,8 @@ public class BulletShooter : MonoBehaviour
 
     public void StopFiring()
     {
+        _field.OnStartDay();
+
         _isFiring = false;
     }
 

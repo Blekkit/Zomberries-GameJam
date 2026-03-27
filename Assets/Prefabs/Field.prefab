@@ -703,8 +703,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
   _field: {fileID: 6268431070686369587}
   _bulletDamageLevelMultiplier: 1
-  _baseAttackDelay: 1
-  _attackSpeedLevelMultiplier: 1
+  _baseAttackDelay: 5
+  _attackSpeedLevelMultiplier: 0.3
 --- !u!1 &3444362485375939826
 GameObject:
   m_ObjectHideFlags: 0

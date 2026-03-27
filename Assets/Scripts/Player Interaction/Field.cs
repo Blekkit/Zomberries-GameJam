@@ -7,20 +7,24 @@ public class Field : MonoBehaviour
     [SerializeField] private Canvas _interactionCanvas;
 
     private bool _isInteractionsOpen = false;
+    private bool _canInteract = true;
 
     public void OnClick()
     {
-        if (_isInteractionsOpen)
+        if (_canInteract)
         {
-            CloseInteractions();
-            DeselectionManager.Instance.DeleteLastField();
-        }
-        else
-        {
-            OpenInteractions();
-            DeselectionManager.Instance.CloseLastField();
-            DeselectionManager.Instance.SaveLastField(this);
+            if (_isInteractionsOpen)
+            {
+                CloseInteractions();
+                DeselectionManager.Instance.DeleteLastField();
+            }
+            else
+            {
+                OpenInteractions();
+                DeselectionManager.Instance.CloseLastField();
+                DeselectionManager.Instance.SaveLastField(this);
 
+            }
         }
     }
 
@@ -34,15 +38,16 @@ public class Field : MonoBehaviour
     {
         _interactionCanvas.gameObject.SetActive(false);
         _isInteractionsOpen = false;
-    }    
+    }
 
     public void OnStartNight()
     {
+        _canInteract = false;
         CloseInteractions();
     }
 
-    private void Awake()
+    public void OnStartDay()
     {
-        
+        _canInteract = true;
     }
 }
