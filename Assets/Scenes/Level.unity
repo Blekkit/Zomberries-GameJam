@@ -645,6 +645,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 65378548}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &65378551 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 65378548}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &76603935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1448,6 +1459,8 @@ Transform:
   - {fileID: 1081276911}
   - {fileID: 436724389}
   - {fileID: 841152793}
+  - {fileID: 1190253847}
+  - {fileID: 1946336455}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &279487437
@@ -2127,6 +2140,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 533575700}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &533575703 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 533575700}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &547902853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2364,6 +2388,28 @@ Transform:
   - {fileID: 923162975}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &602225474 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 567614613}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &613781993 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 507186912}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &619268474
 GameObject:
   m_ObjectHideFlags: 0
@@ -2782,6 +2828,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 679453691}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &679453694 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 679453691}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &684448890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2884,6 +2941,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 684448890}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &698730801 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 674511101}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &705371027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3425,6 +3493,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 759623398}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &771949396 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 331872458}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &801645034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3639,6 +3718,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &831612320 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 136070733}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &833115801
 GameObject:
   m_ObjectHideFlags: 0
@@ -3774,6 +3864,17 @@ MonoBehaviour:
   m_DefaultActionMap: Point and Click
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 166191436}
+--- !u!114 &847471331 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 73495}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &848362895
 GameObject:
   m_ObjectHideFlags: 0
@@ -4145,6 +4246,17 @@ RectTransform:
   m_AnchoredPosition: {x: 3.05, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &938741094 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 7145982}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &959791072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4247,6 +4359,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 959791072}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &959791075 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 959791072}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &983909235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4483,6 +4606,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1042852088}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1042852091 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1042852088}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &1055019497
 GameObject:
   m_ObjectHideFlags: 0
@@ -4514,6 +4648,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1344330852}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1057664323 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 279487437}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &1081276910
 GameObject:
   m_ObjectHideFlags: 0
@@ -4825,6 +4970,127 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 714946815775776420, guid: 40cc94d19d3ade54da236938ee45664c, type: 3}
   m_PrefabInstance: {fileID: 1160979414}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1172545734 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 547902853}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1181659121 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 705371027}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!1 &1190253846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1190253847}
+  - component: {fileID: 1190253848}
+  m_Layer: 0
+  m_Name: DayNightManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1190253847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190253846}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 269024262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1190253848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190253846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e086e827fad9ec247b4f117ecf38852a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DayNight
+  turnDay:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 833115803}
+        m_TargetAssemblyTypeName: EnemySpawner, Assembly-CSharp
+        m_MethodName: EndNight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1946336456}
+        m_TargetAssemblyTypeName: ShooterManager, Assembly-CSharp
+        m_MethodName: EndAllshooting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  turnNight:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 833115803}
+        m_TargetAssemblyTypeName: EnemySpawner, Assembly-CSharp
+        m_MethodName: StartNight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1946336456}
+        m_TargetAssemblyTypeName: ShooterManager, Assembly-CSharp
+        m_MethodName: StartAllShooting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  interactionsToNight: 5
 --- !u!1001 &1223791207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4943,6 +5209,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 714946815775776420, guid: 40cc94d19d3ade54da236938ee45664c, type: 3}
   m_PrefabInstance: {fileID: 1223791207}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1252019339 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 759623398}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &1255541536
 GameObject:
   m_ObjectHideFlags: 0
@@ -5084,6 +5361,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85bace70f8a541941aed523661a63081, type: 3}
+--- !u!114 &1282086326 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 152265375}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1294442398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5186,6 +5474,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1294442398}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1294442401 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1294442398}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1312321265
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5288,6 +5587,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1312321265}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1312321268 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1312321265}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &1344330851
 GameObject:
   m_ObjectHideFlags: 0
@@ -5424,6 +5734,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1356535324}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1356535327 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1356535324}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1357614843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5526,6 +5847,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1357614843}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1357614846 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1357614843}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1379732216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5628,6 +5960,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1379732216}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1379732219 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1379732216}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1403004185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5730,6 +6073,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1403004185}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1404344497 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1120833794}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1407388491 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1403004185}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1436640247
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5934,6 +6299,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1445131062}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1445131065 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1445131062}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1476251060 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 57271140}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1480724059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6240,6 +6627,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1525550514}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1525550517 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1525550514}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &1549188819
 GameObject:
   m_ObjectHideFlags: 0
@@ -6477,6 +6875,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1563799717}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1563799720 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1563799717}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1579188622 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1480724059}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1583513826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6681,6 +7101,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1619206079}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1619206082 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1619206079}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!224 &1623266725 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
@@ -6933,6 +7364,39 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1645981771}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1645981774 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1645981771}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1664430181 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 983909235}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1672448481 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1639284218}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1681989332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7035,6 +7499,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1681989332}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1681989335 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1681989332}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1691039776 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 684448890}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1707636556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7137,6 +7623,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1707636556}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1707636559 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1707636556}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &1709421696
 GameObject:
   m_ObjectHideFlags: 0
@@ -7466,6 +7963,39 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1719044981}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1719044984 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1719044981}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1730902389 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 123627285}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1745791485 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 801645034}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1764617762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7568,6 +8098,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1764617762}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1764617765 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1764617762}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1781434017 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1264247158}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &1785438448
 GameObject:
   m_ObjectHideFlags: 0
@@ -7782,6 +8334,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1797470222}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1797470225 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1797470222}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &1798186314
 GameObject:
   m_ObjectHideFlags: 0
@@ -7927,6 +8490,17 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1832474432 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 368274703}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1844832745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8029,6 +8603,39 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1844832745}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1844832748 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1844832745}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1846861595 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1583513826}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1848104904 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1436640247}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &1855448150
 GameObject:
   m_ObjectHideFlags: 0
@@ -8141,6 +8748,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fc0c801d16d41a34493ac1bf6e6279c7, type: 3}
   m_PrefabInstance: {fileID: 1874638225}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1875396582 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1523263735}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &1890192222 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 76603935}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1898661633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8243,6 +8872,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1898661633}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1898661636 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1898661633}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1900762990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8345,6 +8985,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1900762990}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1900762993 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1900762990}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &1914979651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8447,6 +9098,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1914979651}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1914979654 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1914979651}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &1945720908
 GameObject:
   m_ObjectHideFlags: 0
@@ -8592,6 +9254,118 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1945787498}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1945787501 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1945787498}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!1 &1946336454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1946336455}
+  - component: {fileID: 1946336456}
+  m_Layer: 0
+  m_Name: ShooterManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1946336455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946336454}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 269024262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1946336456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946336454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 647271593713b5643bc03a29678e171a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShooterManager
+  _allShooters:
+  - {fileID: 1781434017}
+  - {fileID: 1672448481}
+  - {fileID: 1312321268}
+  - {fileID: 1846861595}
+  - {fileID: 1745791485}
+  - {fileID: 65378551}
+  - {fileID: 959791075}
+  - {fileID: 1294442401}
+  - {fileID: 613781993}
+  - {fileID: 1691039776}
+  - {fileID: 1172545734}
+  - {fileID: 1252019339}
+  - {fileID: 1404344497}
+  - {fileID: 1356535327}
+  - {fileID: 2038452871}
+  - {fileID: 1995422440}
+  - {fileID: 771949396}
+  - {fileID: 1379732219}
+  - {fileID: 1730902389}
+  - {fileID: 1848104904}
+  - {fileID: 1445131065}
+  - {fileID: 1057664323}
+  - {fileID: 1719044984}
+  - {fileID: 1890192222}
+  - {fileID: 1282086326}
+  - {fileID: 1707636559}
+  - {fileID: 1525550517}
+  - {fileID: 679453694}
+  - {fileID: 1681989335}
+  - {fileID: 1645981774}
+  - {fileID: 1797470225}
+  - {fileID: 1476251060}
+  - {fileID: 1764617765}
+  - {fileID: 602225474}
+  - {fileID: 938741094}
+  - {fileID: 831612320}
+  - {fileID: 1579188622}
+  - {fileID: 1945787501}
+  - {fileID: 847471331}
+  - {fileID: 1914979654}
+  - {fileID: 1898661636}
+  - {fileID: 2018601769}
+  - {fileID: 1181659121}
+  - {fileID: 1875396582}
+  - {fileID: 698730801}
+  - {fileID: 1407388491}
+  - {fileID: 1563799720}
+  - {fileID: 533575703}
+  - {fileID: 1042852091}
+  - {fileID: 1832474432}
+  - {fileID: 1844832748}
+  - {fileID: 2103153645}
+  - {fileID: 1900762993}
+  - {fileID: 1619206082}
+  - {fileID: 1664430181}
+  - {fileID: 1357614846}
 --- !u!1001 &1980726662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8694,6 +9468,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 1980726662}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1995422440 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1554409533}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1001 &2018601766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8796,6 +9581,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 2018601766}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2018601769 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 2018601766}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
+--- !u!114 &2038452871 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 1980726662}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1 &2054212097
 GameObject:
   m_ObjectHideFlags: 0
@@ -8976,6 +9783,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 168952411261153410, guid: 85bace70f8a541941aed523661a63081, type: 3}
   m_PrefabInstance: {fileID: 2103153642}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2103153645 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2779438585638113022, guid: 85bace70f8a541941aed523661a63081, type: 3}
+  m_PrefabInstance: {fileID: 2103153642}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fa66dcda555484a8788fd08425cda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BulletShooter
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BulletShooter : MonoBehaviour
 {
@@ -57,4 +58,16 @@ public class BulletShooter : MonoBehaviour
     {
         UpdateMousePosition();
     }
+
+    //private void OnEnable()
+    //{
+    //    DayNight.instance.turnDay.AddListener(StartFiring());
+    //    DayNight.instance.turnNight.AddListener(StopFiring());
+    //}
+
+    //private void OnDisable()
+    //{
+    //    DayNight.instance.turnDay.RemoveListener(StartFiring());
+    //    DayNight.instance.turnNight.RemoveListener(StopFiring());
+    //}
 }

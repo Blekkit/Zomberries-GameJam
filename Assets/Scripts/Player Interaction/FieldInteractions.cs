@@ -39,6 +39,8 @@ public class FieldInteractions : MonoBehaviour
     {
         _field.FieldState++;
         ChangeModelToState(_field.FieldState);
+        DayNight.instance.AddInteraction();
+
         if (_field.FieldState == EFieldState.StrongPlant)
             ChangeButtonEnabled(_wateringButton, false, _plantAtMaxGrowthText);
 
