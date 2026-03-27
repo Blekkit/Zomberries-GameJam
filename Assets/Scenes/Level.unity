@@ -1447,6 +1447,7 @@ Transform:
   - {fileID: 1255541537}
   - {fileID: 1081276911}
   - {fileID: 436724389}
+  - {fileID: 841152793}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &279487437
@@ -1888,6 +1889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   _gameOverSceneIndex: 2
   _maxHP: 10
+  _healthText: {fileID: 1709421698}
 --- !u!1001 &507186912
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2014,7 +2016,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507592366}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3689,6 +3691,89 @@ MonoBehaviour:
   _nightSpawnRateMultiplier: 0.2
   _baseGroupAmount: 1
   _groupAmountDayMultiplier: 1
+  _isNight: 0
+--- !u!1 &841152792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 841152793}
+  - component: {fileID: 841152794}
+  m_Layer: 0
+  m_Name: PlayerInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &841152793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841152792}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 269024262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &841152794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841152792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: d32e48db7c66e564286e8af21a673e67, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 69755ef3-0ad6-4f61-a9f3-bddfd6910484
+    m_ActionName: 'Point and Click/Interact[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1712813708}
+        m_TargetAssemblyTypeName: MousePositionProvider, Assembly-CSharp
+        m_MethodName: OnMouseMoce
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 19b3656d-b634-449f-8b0f-f0bd9b23400b
+    m_ActionName: 'Point and Click/Position[/Mouse/position]'
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Point and Click
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 166191436}
 --- !u!1 &848362895
 GameObject:
   m_ObjectHideFlags: 0
@@ -8897,10 +8982,10 @@ SceneRoots:
   m_Roots:
   - {fileID: 1549188820}
   - {fileID: 269024262}
+  - {fileID: 507592367}
   - {fileID: 1344330852}
   - {fileID: 574519152}
   - {fileID: 645277064}
   - {fileID: 745282985}
   - {fileID: 848362899}
   - {fileID: 806709976}
-  - {fileID: 507592367}

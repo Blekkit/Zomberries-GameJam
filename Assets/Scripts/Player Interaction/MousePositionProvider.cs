@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class MousePositionProvider : MonoBehaviour
 {
@@ -11,9 +12,9 @@ public class MousePositionProvider : MonoBehaviour
         return _mouseScreenPosition;
     }
 
-    public void OnMouseMoce(Vector2 mouseScreenposition)
+    public void OnMouseMove(InputAction.CallbackContext context)
     {
-        _mouseScreenPosition = mouseScreenposition;
+        _mouseScreenPosition = context.ReadValue<Vector2>();
     }
 
     private void Awake()
