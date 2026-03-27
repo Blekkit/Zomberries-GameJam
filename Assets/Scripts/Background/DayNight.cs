@@ -1,10 +1,15 @@
 using UnityEngine;
 
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DayNight : MonoBehaviour
 {
+    public UnityEvent turnDay;
+    public UnityEvent turnNight;
     public static DayNight instance;
+
+    public int DayCount { get; private set; }
 
     [SerializeField] private int interactionsToNight = 5;
     private int currentInteractions = 0;
@@ -22,6 +27,7 @@ public class DayNight : MonoBehaviour
     private void Start()
     {
         SetDay();
+        DayCount = 1;
     }
 
     public void AddInteraction()
@@ -37,14 +43,17 @@ public class DayNight : MonoBehaviour
     private void SetDay()
     {
         isNight = false;
-        Debug.Log("is daylight");
+        turnDay?.Invoke();
         RenderSettings.ambientLight = Color.white;
+        DayCount++;
     }
 
     private void SetNight()
     {
         isNight = true;
-        Debug.Log("is night");
+        turnNight?.Invoke();
         RenderSettings.ambientLight = Color.blue;
+
+
     }
 }
