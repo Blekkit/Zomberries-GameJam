@@ -11,7 +11,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private int _baseGroupAmount = 1;
     [SerializeField] private float _groupAmountDayMultiplier = 1f;
 
-    private bool _isNight = false;
+    [SerializeField] private bool _isNight = false;
     private int _dayCount = 1;
 
     private void SetDayCount(int value)
