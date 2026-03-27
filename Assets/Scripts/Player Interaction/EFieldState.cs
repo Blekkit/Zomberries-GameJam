@@ -3,6 +3,6 @@ public enum EFieldState
     Empty,
     Seeds,
     SmallPlant,
-    GrownPlant,
-    BigPlant
+    RipePlant,
+    StrongPlant
 }

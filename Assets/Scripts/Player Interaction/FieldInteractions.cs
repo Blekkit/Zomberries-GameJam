@@ -16,11 +16,18 @@ public class FieldInteractions : MonoBehaviour
     [SerializeField] private string _plantAtMaxGrowthText = "Plant already at max growth.";
     [SerializeField] private string _noPlantToHarvestText = "No grown plant to harvest.";
     [SerializeField] private string _noPlantToWaterText = "No plant to water.";
+    [SerializeField] private string _noSeedsText = "No Seeds left.";
+    [SerializeField] private GameObject _modelSeeds;
+    [SerializeField] private GameObject _modelPlant;
+    [SerializeField] private GameObject _modelRipe;
+    [SerializeField] private GameObject _modelStrong;
+
 
     public void PlantSeed()
     {
         _field.FieldState = EFieldState.Seeds;
-        PlayerInventory.Instance.SeedAmount--;
+        ChangeModelToState(EFieldState.Seeds);
+        PlayerInventory.Instance.PlantSeed();
 
         ChangeButtonEnabled(_plantSeedsButton, false, _plantAlreadyThereText);
         ChangeButtonEnabled(_wateringButton, true, WATER_BUTTON_TEXT);
@@ -31,7 +38,8 @@ public class FieldInteractions : MonoBehaviour
     public void WaterPlant()
     {
         _field.FieldState++;
-        if (_field.FieldState == EFieldState.BigPlant)
+        ChangeModelToState(_field.FieldState);
+        if (_field.FieldState == EFieldState.StrongPlant)
             ChangeButtonEnabled(_wateringButton, false, _plantAtMaxGrowthText);
 
         if (_field.FieldState > EFieldState.Seeds)
@@ -44,8 +52,9 @@ public class FieldInteractions : MonoBehaviour
 
     public void HarvestSeeds()
     {
-        PlayerInventory.Instance.SeedAmount += (int)_field.FieldState;
+        PlayerInventory.Instance.HarvestSeeds((int)_field.FieldState);
         _field.FieldState = EFieldState.Empty;
+        ChangeModelToState(EFieldState.Empty);
 
         ChangeButtonEnabled(_harvestButton, false, _noPlantToHarvestText);
         ChangeButtonEnabled(_wateringButton, false, _noPlantToWaterText);
@@ -61,11 +70,34 @@ public class FieldInteractions : MonoBehaviour
         buttonText.text = newButtonText;
     }
 
+    private void ChangeModelToState(EFieldState fieldState)
+    {
+        if (fieldState != EFieldState.Seeds)
+            _modelSeeds.SetActive(false);
+        else
+            _modelSeeds.SetActive(true);
+
+        if (fieldState != EFieldState.SmallPlant)
+            _modelPlant.SetActive(false);
+        else
+            _modelPlant.SetActive(true);
+
+        if (fieldState != EFieldState.RipePlant)
+            _modelRipe.SetActive(false);
+        else
+            _modelRipe.SetActive(true);
+
+        if (fieldState != EFieldState.StrongPlant)
+            _modelStrong.SetActive(false);
+        else
+            _modelStrong.SetActive(true);
+    }
+
     private void OnEnable()
     {
         if (_field.FieldState == EFieldState.Empty)
             ChangeButtonEnabled(_wateringButton, false, _noPlantToWaterText);
-        else if (_field.FieldState == EFieldState.BigPlant)
+        else if (_field.FieldState == EFieldState.StrongPlant)
             ChangeButtonEnabled(_wateringButton, false, _plantAtMaxGrowthText);
         else
             ChangeButtonEnabled(_wateringButton, true, WATER_BUTTON_TEXT);
@@ -78,6 +110,14 @@ public class FieldInteractions : MonoBehaviour
         if (_field.FieldState != EFieldState.Empty)
             ChangeButtonEnabled(_plantSeedsButton, false, _plantAlreadyThereText);
         else
+            ChangeButtonEnabled(_plantSeedsButton, true, PLANT_BUTTON_TEXT);
+    }
+
+    private void Update()
+    {
+        if (PlayerInventory.Instance.SeedAmount <= 0)
+            ChangeButtonEnabled(_plantSeedsButton, false, _noSeedsText);
+        else if (_field.FieldState == EFieldState.Empty)
             ChangeButtonEnabled(_plantSeedsButton, true, PLANT_BUTTON_TEXT);
     }
 }
